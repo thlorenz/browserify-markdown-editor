@@ -1,6 +1,16 @@
-.edit {
-  width: 600px;
-  height: 600px;
+#editor {
+  width: 45%;
+  height: 90%;
+
+  position: absolute;
+}
+
+.rendered {
+  position: absolute;
+  left: 50%;
+  width: 45%;
+  height: 100%;
+  
 }
 
 /* 
@@ -13,11 +23,7 @@ html {
 	color: black;
 }
 body {
-	box-shadow: 0px 0px 0px 3px #eee;
-	border: 1px solid #CACACA;
-	width: 852px;
-	padding: 30px;
-	margin: auto;
+	padding: 5px;
 	margin-top: 20px;
 }
 h1 {
