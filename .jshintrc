@@ -1,0 +1,15 @@
+{
+    "laxcomma" :  true
+  , "laxbreak" :  true
+  , "sub"      :  true
+  , "onecase"  :  true
+  , "node"     :  true
+  , "expr"     :  true
+  , "strict"   :  false
+  , "validthis":  true
+  , "asi"      :  true
+  , "globals" : {
+    "setImmediate": true
+    }
+  , "browser": true
+}

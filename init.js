@@ -8,5 +8,6 @@ try {
 
 var go = module.exports = function () {
   var md = fs.readFileSync(__dirname + '/README.md');
-  console.log(md);
+  var editor = document.getElementsByClassName('edit')[0]
+  editor.value = md;
 };
