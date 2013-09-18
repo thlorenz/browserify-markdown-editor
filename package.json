@@ -11,7 +11,8 @@
   "homepage": "https://github.com/thlorenz/browserify-markdown-editor",
   "dependencies": {
     "marked": "~0.2.9",
-    "peacock": "~0.2.0"
+    "peacock": "~0.2.0",
+    "browserify": "~2.31.0"
   },
   "devDependencies": {},
   "keywords": [],
