@@ -19,17 +19,3 @@ marked.setOptions({
 var go = module.exports = function (md) {
   return marked(md);
 };
-
-// Test
-if (!module.parent) {
-  var sample = [
-    '# title'
-  , ''
-  , '```js'
-  , ' var a = 3;'
-  , '```'
-  ].join('\n')
-
-  var res = go(sample);
-  console.log(res);
-}
