@@ -77,11 +77,10 @@ pre, code {
 }
 pre {
 	background-color: #F8F8F8;
-	border: 1px solid #CCC;
 	font-size: 13px;
 	line-height: 19px;
 	overflow: auto;
-	padding: 6px 10px;
+	padding: 0px 5px;
 	border-radius: 3px;
 	color: black;
 }
@@ -98,7 +97,8 @@ pre > code {
     margin: 0px;
 	padding: 0px;
 	white-space: pre;
-	border: none;
+	
+    border: none;
 	background-color: transparent;
 	border-radius: 0;
 }
@@ -111,14 +111,15 @@ a:hover, a code:hover {
 }
 table {
 	border-collapse: collapse;
-	margin: 20px 0 0;
+	margin: 10px 0 0;
 	padding: 0;
+	width: 100%;
 }
 table tr th, table tr td {
 	border: 1px solid #CCC;
 	text-align: left;
 	margin: 0;
-	padding: 6px 13px;
+	padding: 4px 4px;
 }
 table tbody tr:nth-child(2n-1) {
         background-color: #F8F8F8;
