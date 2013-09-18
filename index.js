@@ -34,10 +34,16 @@ function serveBundle (res) {
   fs.createReadStream(path.join(__dirname, 'bundle.js')).pipe(res); 
 }
 
+function serveCss (res) {
+  res.writeHead(200, { 'Content-Type': 'text/css' });
+  fs.createReadStream(path.join(__dirname, 'css', 'index.css')).pipe(res); 
+}
+
 var server = http.createServer(function (req, res) {
   console.log('%s %s', req.method, req.url);
   if (req.url === '/') return serveIndex(res);
   if (req.url === '/bundle.js') return serveBundle(res);
+  if (req.url === '/css/index.css') return serveCss(res);
   res.writeHead(404);
   res.end();
 });
