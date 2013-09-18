@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "description": "A demo showing how to build a markdown editor with browserify and marked.",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/thlorenz/browserify-markdown-editor.git"
