@@ -1,12 +1,7 @@
 'use strict';
 
 var renderMd =  require('./render-md');
-
-var fs;
-
-try {
-  fs = require('fs');
-} catch (e) {}
+var  fs = require('fs');
 
 var go = module.exports = function () {
   var md = fs.readFileSync(__dirname + '/README.md');
