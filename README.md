@@ -3,18 +3,17 @@
 A demo showing how to build a markdown editor with browserify and marked.
 
 ```js
-// TODO
+var a = 3;
+console.log('Nice demo!');
 ```
 
-## Status
-
-Nix, Nada, Nichevo, Nothing --> go away!
 ## Installation
 
-    npm install browserify-markdown-editor
+    npm install thlorenz/browserify-markdown-editor
 
 ## API
 
+None, it's a demo.
 
 ## License
 
