@@ -1,9 +1,10 @@
 'use strict';
 
-var http = require('http');
-var fs = require('fs');
-var path = require('path');
-var renderMd = require('./render-md');
+var http     =  require('http');
+var fs       =  require('fs');
+var path     =  require('path');
+var renderMd =  require('./render-md');
+var build    =  require('./build');
 
 function serveError (res, err) {
   res.writeHead(500, { 'Content-Type': 'text/plain' });
@@ -31,7 +32,7 @@ function serveIndex (res) {
 
 function serveBundle (res) {
   res.writeHead(200, { 'Content-Type': 'application/javascript' });
-  fs.createReadStream(path.join(__dirname, 'bundle.js')).pipe(res); 
+  build().pipe(res);
 }
 
 function serveCss (res) {
