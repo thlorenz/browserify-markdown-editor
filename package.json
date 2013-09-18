@@ -12,7 +12,8 @@
   "dependencies": {
     "marked": "~0.2.9",
     "peacock": "~0.2.0",
-    "browserify": "~2.31.0"
+    "browserify": "~2.31.0",
+    "hyperwatch": "~0.5.0"
   },
   "devDependencies": {},
   "keywords": [],

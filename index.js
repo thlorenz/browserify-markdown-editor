@@ -5,8 +5,10 @@ var fs       =  require('fs');
 var path     =  require('path');
 var renderMd =  require('./render-md');
 var build    =  require('./build');
+var hyperwatch = require('hyperwatch');
 
 function serveError (res, err) {
+  console.error(err);
   res.writeHead(500, { 'Content-Type': 'text/plain' });
   res.end(err.toString());
 }
@@ -54,3 +56,5 @@ server.on('listening', function (address) {
   console.log('listening: http://%s:%d', a.address, a.port);  
 });
 server.listen(3000);
+
+hyperwatch(server);
