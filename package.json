@@ -3,12 +3,6 @@
     "version" : "0.0.0",
     "description" : "A demo showing how to build a markdown editor with browserify and marked.",
     "main" : "index.js",
-    "scripts" : {
-      "test-main" :  "tap test/*.js",
-      "test-0.8"  :  "nave use 0.8 npm run test-main",
-      "test-0.10" :  "nave use 0.10 npm run test-main",
-      "test-all": "npm run test-main && npm run test-0.8 && npm run test-0.10",
-      "test"      :  "if [ -e $TRAVIS ]; then npm run test-all; else npm run test-main; fi"
     },
     "repository" : {
       "type" : "git",
@@ -18,9 +12,6 @@
     "dependencies" : {
     },
     "devDependencies" : {
-      "nave": "~0.4.3",
-      "tape": "~1.0.4",
-      "tap": "~0.4.3"
     },
     "keywords": [] ,
     "author" : {
