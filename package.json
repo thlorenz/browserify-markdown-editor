@@ -1,29 +1,30 @@
 {
-    "name" : "browserify-markdown-editor",
-    "version" : "0.0.0",
-    "description" : "A demo showing how to build a markdown editor with browserify and marked.",
-    "main" : "index.js",
-    "scripts": {
-
-    },
-    "repository" : {
-      "type" : "git",
-      "url" : "git://github.com/thlorenz/browserify-markdown-editor.git"
-    },
-    "homepage" : "https://github.com/thlorenz/browserify-markdown-editor",
-    "dependencies" : {
-    },
-    "devDependencies" : {
-    },
-    "keywords": [] ,
-    "author" : {
-      "name" : "Thorsten Lorenz",
-      "email" : "thlorenz@gmx.de",
-      "url" : "http://thlorenz.com"
-    },
-    "license" : {
-      "type": "MIT",
-      "url": "https://github.com/thlorenz/browserify-markdown-editor/blob/master/LICENSE"
-    },
-    "engine" : { "node" : ">=0.6" }
+  "name": "browserify-markdown-editor",
+  "version": "0.0.0",
+  "description": "A demo showing how to build a markdown editor with browserify and marked.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thlorenz/browserify-markdown-editor.git"
+  },
+  "homepage": "https://github.com/thlorenz/browserify-markdown-editor",
+  "dependencies": {
+    "marked": "~0.2.9",
+    "peacock": "~0.2.0"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": {
+    "name": "Thorsten Lorenz",
+    "email": "thlorenz@gmx.de",
+    "url": "http://thlorenz.com"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/thlorenz/browserify-markdown-editor/blob/master/LICENSE"
+  },
+  "engine": {
+    "node": ">=0.6"
+  }
 }
