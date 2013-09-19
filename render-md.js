@@ -9,7 +9,7 @@ marked.setOptions({
   , highlight :  function (code, lang) {
       if (!lang) return code;
       try {
-        return peacock.highlight(code, { linenos: true });
+        return peacock.highlight(code);
       } catch (e) {
         return code;
       }
