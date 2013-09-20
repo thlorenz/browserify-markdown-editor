@@ -26,6 +26,7 @@ I created a tag for every major step numbered in order, so you can checkout each
 
 Playing with the code:
 
+- after checking out a new tag do `npm install` in order to update added dependencies
 - up til tag `003-static-server`: 
   - `browserify main.js > bundle.js`
   - then `open index.html` in the browser
