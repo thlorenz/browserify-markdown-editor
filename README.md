@@ -21,7 +21,7 @@ I created a tag for every major step numbered in order, so you can checkout each
 - review all tags and what changed from one to the next in the
   [Changelog](https://github.com/thlorenz/browserify-markdown-editor/blob/master/CHANGELOG.md)
 
-- list all tags: `git tags`
+- list all tags: `git tag -n`
 - checking out a tag example: `git checkout 003-static-server`
 
 Playing with the code:
