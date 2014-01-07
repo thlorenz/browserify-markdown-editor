@@ -1,5 +1,7 @@
 # browserify-markdown-editor
 
+[![pic](https://github.com/thlorenz/browserify-markdown-editor/raw/master/assets/small-view.png)](http://thlorenz.github.io/browserify-markdown-editor/)
+
 A demo showing how to build a markdown editor with browserify and marked.
 
 You can play with [the finished product](http://thlorenz.github.io/browserify-markdown-editor/), it may even prove
