@@ -6,7 +6,7 @@ var initEditor = require('./init-brace');
 
 
 var go = module.exports = function () {
-  var md = fs.readFileSync(__dirname + '/README.md');
+  var md = fs.readFileSync(__dirname + '/README.md').toString();
   var rendered = document.getElementsByClassName('rendered')[0];
 
   var editor = initEditor(md);

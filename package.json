@@ -12,12 +12,12 @@
   },
   "homepage": "https://github.com/thlorenz/browserify-markdown-editor",
   "dependencies": {
-    "marked": "~0.2.9",
-    "peacock": "~0.2.0",
-    "browserify": "~2.31.0",
+    "brace": "^0.4.0",
+    "brfs": "~1.2.0",
+    "browserify": "~7.0.0",
     "hyperwatch": "~0.5.0",
-    "brfs": "0.0.8",
-    "brace": "~0.1.3"
+    "marked": "~0.2.9",
+    "peacock": "~0.2.0"
   },
   "devDependencies": {},
   "keywords": [],

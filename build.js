@@ -2,10 +2,10 @@
 var browserify = require('browserify');
 
 var go = module.exports = function () {
-  return browserify()
+  return browserify({ debug: true })
     .require(require.resolve('./main'), { entry: true })
     .transform('brfs')
-    .bundle({ debug: true });
+    .bundle();
 };
 
 // Test
