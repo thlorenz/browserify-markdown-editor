@@ -7,6 +7,8 @@ var renderMd =  require('./render-md');
 var build    =  require('./build');
 var hyperwatch = require('hyperwatch');
 
+console.log(process.pid);
+
 function serveError (res, err) {
   console.error(err);
   res.writeHead(500, { 'Content-Type': 'text/plain' });
@@ -44,3 +46,10 @@ server.on('listening', function (address) {
 server.listen(3000);
 
 hyperwatch(server);
+
+process.on('SIGTERM', function onsigterm() {
+  // support cleanly exiting process in order to have all buffers flushed
+  // this is important in situations when --perf-basic-prof is used to write symbol information
+  server.close();
+  process.exit(0);
+})
